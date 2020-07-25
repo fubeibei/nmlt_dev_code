@@ -1,0 +1,78 @@
+.head_top {
+  width: 1000px;
+  /*background-color: royalblue;*/
+  display: flex;
+  margin: 0 auto;
+  /*居中*/
+  padding: 10px;
+  box-sizing: border-box;
+}
+.head_top .head_top_left {
+  /*background-color: blue;*/
+  margin: 10px;
+  height: 70px;
+  line-height: 70px;
+  flex: 4;
+  display: flex;
+  border: 2px solid black;
+}
+.head_top .head_top_left > img {
+  /*background-color: aqua;*/
+  display: block;
+  width: 150px;
+  height: 66px;
+  flex: 1;
+}
+.head_top .head_top_left > input {
+  margin: 10px auto;
+  height: 40px;
+  display: block;
+  /* background-color:red;*/
+  flex: 4;
+}
+.head_top .head_top_left > p {
+  margin: 10px 10px;
+  background-color: red;
+  height: 45px;
+  display: block;
+  flex: 1;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+}
+.head_top .head_top_right {
+  height: 70px;
+  line-height: 70px;
+  /*background-color: red;*/
+  flex: 1;
+  margin: 10px ;
+  border: 2px solid black;
+  text-align: center;
+  color: red;
+  font-size: 24px;
+}
+.head_end {
+  width: 1000px;
+  /*background-color: yellow;*/
+  margin: 10px auto;
+}
+.head_end ul {
+  list-style: none;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: flex-start;
+  /*开始对齐*/
+}
+.head_end ul li {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  /*background-color: teal;*/
+  text-align: center;
+}
+.head_end ul li:hover {
+  display: block;
+  background-color: yellow;
+}
+/*# sourceMappingURL=head.css.map */
