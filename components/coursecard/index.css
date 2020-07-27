@@ -303,4 +303,117 @@
   flex: 1;
   color: #777986;
 }
+#footer {
+  height: 184px;
+  margin-top: 20px;
+  background-color: #474443;
+}
+#footer .content {
+  height: 100%;
+  display: flex;
+  font-size: 14px;
+  color: #fff;
+  padding: 40px 0px;
+  box-sizing: border-box;
+  width: 1205px;
+  margin: 0 auto;
+}
+#footer .content .left {
+  height: 104px;
+  width: 803.33px;
+  float: left;
+}
+#footer .content .left ul {
+  display: flex;
+  list-style: none;
+}
+#footer .content .left ul a {
+  text-decoration: none;
+}
+#footer .content .left li {
+  margin: 0 8px;
+  color: #fff;
+}
+#footer .content .left li:nth-child(1) {
+  margin-right: 10px;
+}
+#footer .content p:nth-child(3) {
+  color: #999;
+}
+#footer .right {
+  width: 401.67px;
+  height: 109px;
+  float: right;
+  text-align: right;
+}
+#footer .right .right_dd {
+  text-align: right;
+  box-sizing: border-box;
+  position: relative;
+}
+#footer .right .right_dd .right_dd_a1 {
+  cursor: pointer;
+  background-image: url("./assets/images/layout_css_sprites2.png");
+  background-position: -112px -74px;
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  left: 55%;
+}
+#footer .right .right_dd .right_dd_a1:hover {
+  background-image: url("./assets/images/layout_css_sprites2.png");
+  background-position: -154px -174px;
+}
+#footer .right .right_dd .right_dd_a2 {
+  cursor: pointer;
+  background-image: url("./assets/images/layout_css_sprites2.png");
+  background-position: -220px -174px;
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  left: 70%;
+}
+#footer .right .right_dd .right_dd_a2 .ewm {
+  display: none;
+  margin-top: -120px;
+  margin-left: -30px;
+}
+#footer .right .right_dd .right_dd_a2:hover {
+  background-image: url("./assets/images/layout_css_sprites2.png");
+  background-position: -286px -174px;
+}
+#footer .right .right_dd .right_dd_a2:hover .ewm {
+  display: block;
+}
+#footer .right .right_dd .right_dd_p1 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 30px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+}
+#footer .right .right_dd .right_dd_p1 span {
+  font-size: 12px;
+  color: #ddd;
+  font-weight: lighter;
+  line-height: 30px;
+  padding-left: 10px;
+}
+#footer .right .right_dd .right_dd_p2 {
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+}
 /*# sourceMappingURL=index.css.map */
