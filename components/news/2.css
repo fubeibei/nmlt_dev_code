@@ -1,0 +1,68 @@
+#school_news {
+  padding: 40px 0;
+}
+#school_news .title-nav {
+  text-align: center;
+  font-size: 28px;
+  color: #780000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#school_news .content_nav {
+  padding-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+#school_news .content_nav .more {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+#school_news .content_nav .more a {
+  color: #333333;
+}
+#school_news .content_nav .more a:hover {
+  color: #e1251b;
+}
+#school_news .content_nav .left {
+  float: left;
+}
+#school_news .content_nav .right {
+  float: right;
+}
+#school_news .content_nav .left,
+#school_news .content_nav .right {
+  background-color: #FFFFFF;
+  width: 550px;
+  padding: 20px;
+  border-radius: 5px;
+}
+#school_news .content_nav .left:hover,
+#school_news .content_nav .right:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+#school_news .content_nav .left ul li,
+#school_news .content_nav .right ul li {
+  font-size: 15px;
+  line-height: 36px;
+}
+#school_news .content_nav .left ul li a,
+#school_news .content_nav .right ul li a {
+  float: left;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333333;
+}
+#school_news .content_nav .left ul li a:hover,
+#school_news .content_nav .right ul li a:hover {
+  color: #e1251b;
+}
+#school_news .content_nav .left ul li span,
+#school_news .content_nav .right ul li span {
+  float: right;
+  color: #999999;
+  text-align: right;
+}
+/*# sourceMappingURL=2.css.map */

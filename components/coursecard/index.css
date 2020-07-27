@@ -1,0 +1,131 @@
+@import "normalize.css";
+@import "//at.alicdn.com/t/font_1964732_vkdzwoesqsa.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+.bx {
+  width: 1205px;
+  margin: 0 auto;
+}
+.section {
+  padding: 10px;
+}
+.section .top {
+  height: 32px;
+  color: #780000;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+.section .top a {
+  color: #400000;
+  font-size: 16px;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section .content .course_card {
+  width: 218px;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fffafa;
+}
+.section .content .course_card:hover {
+  box-shadow: 0px 0px 10px gray;
+}
+.section .content .card_top {
+  width: 100%;
+  height: 130px;
+  background-color: green;
+  position: relative;
+}
+.section .content .card_top a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.section .content .card_top a img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s linear;
+}
+.section .content .card_top a img:hover {
+  transform: scale(1.5, 1.5);
+}
+.section .content .card_top .tag {
+  width: 48px;
+  height: 23px;
+  background-image: url(../../assets/images/layout_css_sprites.png);
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-position: -16px -57px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 23px;
+}
+.section .content .card_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+}
+.section .content .card_content .title {
+  flex: 2;
+  background-color: white;
+}
+.section .content .card_content .title a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.section .content .card_content .title a:hover {
+  color: darkred;
+}
+.section .content .card_content .score {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.section .content .card_content .score .star {
+  width: 57px;
+  height: 10px;
+  background-image: url(../../assets/images/layout_css_sprites.png);
+  background-position: -91px -58px;
+  position: relative;
+}
+.section .content .card_content .score .star .y_star {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/layout_css_sprites.png);
+  background-position: -10px -158px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section .content .card_content .score .star_v {
+  margin-left: 5px;
+  color: #777986;
+  font-size: 12px;
+}
+.section .content .card_content .good {
+  flex: 1;
+  color: #777986;
+}
+/*# sourceMappingURL=index.css.map */

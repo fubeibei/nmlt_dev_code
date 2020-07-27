@@ -1,0 +1,76 @@
+#school_news{
+  padding: 40px 0;
+  .title-nav {
+    text-align: center;
+    font-size: 28px;
+    color: #780000;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .content_nav {
+    padding-top: 30px;
+    position: relative;
+    overflow: hidden;
+
+    .more {
+      position: absolute;
+      top: -30px;
+      right: 0;
+
+      a {
+        color: #333333;
+
+        &:hover {
+          color: #e1251b;
+        }
+      }
+    }
+
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .left, .right {
+      background-color: #FFFFFF;
+      width: 550px;
+      //height: 180px;
+      padding: 20px;
+      border-radius: 5px;
+
+      &:hover {
+        box-shadow: 0 0 10px #ccc;
+      }
+
+      ul {
+        li {
+          font-size: 15px;
+          line-height: 36px;
+
+          a {
+            float: left;
+            width: 400px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #333333;
+
+            &:hover {
+              color: #e1251b;
+            }
+          }
+
+          span {
+            float: right;
+            color: #999999;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
